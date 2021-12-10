@@ -1,49 +1,34 @@
 <template>
     <div>
-        <grid :data="gridProps.data" :columns="gridProps.columns" :rowHeaders="gridProps.rowHeaders" :columnOptions="gridProps.columnOptions"
-            @click="onClick">
-
-        </grid>
+        <div class="container-fluid">
+            <div class="col-xl-3 xl-50 chart_data_right box-col-12">
+                <px-card>
+                    <div slot="with-padding">
+                        <div class="media align-items-center">
+                            <div class="media-body right-chart-content">
+                            <h4>
+                                INDEX PAGE
+                            </h4>
+                            </div>
+                        </div>
+                    </div>
+                </px-card>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
-import {
-  Grid
-} from '@toast-ui/vue-grid';
+import PxCard from '../Pxcard.vue'
+import Breadcrumbs from '../bread_crumbs.vue'
 export default {
     components : {
-        grid : Grid
-    },
-    data(){
-        return {
-            msg : "hi"
-        }
-    },
-    computed : {
-        ...mapGetters({getIndexed : 'getIndex'}),
-    },
-    methods : {
-        onClick(ev){
-            console.log("clicked!" , ev);
-        }
-    },
-    created(){
-        this.gridProps = {
-            data : [
-                {name: "sss", artist : "birdy"},
-                {name: "punk", artist : "daft"}
-            ],
-            columns : [
-                {header : 'Name', name : 'name'},
-                {header: 'Name', name : 'name'}
-            ]
-        }
+        PxCard : PxCard,
+        Breadcrumbs : Breadcrumbs
     }
-}
+  };
 </script>
 
-<style lang="scss">
+<style>
 
 </style>

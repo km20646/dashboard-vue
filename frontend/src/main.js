@@ -6,9 +6,9 @@ import router from './router'
 import {
   store
 } from './store/store'
-import './assets/scss/style.scss'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import BootstrapVue from 'bootstrap-vue'
+import './assets/scss/style.scss'
 import 'tui-grid/dist/tui-grid.css'
 import 'tui-date-picker/dist/tui-date-picker.css';
 import 'tui-pagination/dist/tui-pagination.css'
@@ -18,7 +18,7 @@ TuiGrid.applyTheme('striped');
 TuiGrid.setLanguage('ko');
 Vue.config.productionTip = false
 // Make BootstrapVue available throughout your project
-// Vue.use(BootstrapVue)
+Vue.use(BootstrapVue)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
