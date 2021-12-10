@@ -1,0 +1,102 @@
+[
+      {
+        "cate": "0810",
+        "mcate": "향수",
+        "minprice_error_cnt": 0,
+        "cnt": 168575,
+        "isrt_dt": "2021-10-23 19:02:46",
+        "lcate": "화장품",
+        "total_error_cnt": 1083,
+        "delete_error_cnt": 1083
+      },
+      {
+        "cate": "1507",
+        "mcate": "오일/소스/양념",
+        "minprice_error_cnt": 0,
+        "cnt": 728113,
+        "isrt_dt": "2021-10-23 19:02:46",
+        "lcate": "식품",
+        "total_error_cnt": 5171,
+        "delete_error_cnt": 5171
+      },
+      {
+        "cate": "1508",
+        "mcate": "과자/초콜릿/디저트",
+        "minprice_error_cnt": 0,
+        "cnt": 494580,
+        "isrt_dt": "2021-10-23 19:02:46",
+        "lcate": "식품",
+        "total_error_cnt": 4356,
+        "delete_error_cnt": 4356
+      },
+      {
+        "cate": "1632",
+        "mcate": "세탁/청소용품",
+        "minprice_error_cnt": 0,
+        "cnt": 303780,
+        "isrt_dt": "2021-10-16 14:09:29",
+        "lcate": "생활,취미",
+        "total_error_cnt": 3639,
+        "delete_error_cnt": 3639
+      },
+      {
+        "cate": "1508",
+        "mcate": "과자/초콜릿/디저트",
+        "minprice_error_cnt": 0,
+        "cnt": 511679,
+        "isrt_dt": "2021-10-16 14:09:29",
+        "lcate": "식품",
+        "total_error_cnt": 17065,
+        "delete_error_cnt": 17065
+      },
+      {
+        "cate": "0550",
+        "mcate": "건조기/의류관리기",
+        "minprice_error_cnt": 0,
+        "cnt": 66523,
+        "isrt_dt": "2021-10-09 10:38:21",
+        "lcate": "생활가전",
+        "total_error_cnt": 151,
+        "delete_error_cnt": 151
+      },
+      {
+        "cate": "1643",
+        "mcate": "악기/디지털피아노",
+        "minprice_error_cnt": 0,
+        "cnt": 127459,
+        "isrt_dt": "2021-10-09 10:38:21",
+        "lcate": "생활,취미",
+        "total_error_cnt": 618,
+        "delete_error_cnt": 618
+      },
+      {
+        "cate": "0414",
+        "mcate": "소프트웨어",
+        "minprice_error_cnt": 26,
+        "cnt": 9146,
+        "isrt_dt": "2021-10-02 08:35:29",
+        "lcate": "컴퓨터",
+        "total_error_cnt": 101,
+        "delete_error_cnt": 75
+      },
+      {
+        "cate": "0908",
+        "mcate": "골프클럽",
+        "minprice_error_cnt": 107,
+        "cnt": 154675,
+        "isrt_dt": "2021-10-02 08:35:29",
+        "lcate": "스포츠",
+        "total_error_cnt": 641,
+        "delete_error_cnt": 534
+      },
+      {
+        "cate": "2404",
+        "mcate": "온수매트/전기장판",
+        "minprice_error_cnt": 34,
+        "cnt": 73643,
+        "isrt_dt": "2021-10-02 08:35:29",
+        "lcate": "계절가전",
+        "total_error_cnt": 140,
+        "delete_error_cnt": 106
+      }
+    ]
