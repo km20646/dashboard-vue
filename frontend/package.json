@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@toast-ui/vue-grid": "^4.19.4",
     "bootstrap-vue": "^2.0.3",
     "node-sass": "^4.14.1",
     "vue": "^2.5.2",
