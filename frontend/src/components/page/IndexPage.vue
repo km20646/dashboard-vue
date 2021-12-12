@@ -7,7 +7,7 @@
                         <div class="media align-items-center">
                             <div class="media-body right-chart-content">
                             <h4>
-                                INDEX PAGE
+                                INDEX PAGE!
                             </h4>
                             </div>
                         </div>
